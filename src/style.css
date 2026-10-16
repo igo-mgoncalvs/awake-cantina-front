@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  /* Forest — verde floresta */
+  --color-forest-50: #eef7f0;
+  --color-forest-100: #d8eadc;
+  --color-forest-200: #b6d7bf;
+  --color-forest-300: #8cbd9c;
+  --color-forest-400: #5da076;
+  --color-forest-500: #40845b;
+  --color-forest-600: #33734c;
+  --color-forest-700: #285a3b;
+  --color-forest-800: #224831;
+  --color-forest-900: #1c3b29;
+  --color-forest-950: #0e2116;
+
+  /* Terracotta — laranja terroso */
+  --color-terracotta-50: #fff4ed;
+  --color-terracotta-100: #ffe5d4;
+  --color-terracotta-200: #ffc9a8;
+  --color-terracotta-300: #ffa675;
+  --color-terracotta-400: #f58147;
+  --color-terracotta-500: #df6c35;
+  --color-terracotta-600: #c65c29;
+  --color-terracotta-700: #a44423;
+  --color-terracotta-800: #863921;
+  --color-terracotta-900: #6d321f;
+  --color-terracotta-950: #3b170d;
+
+  /* Roxo principal */
+  --color-purple-50: #fcf8fc;
+  --color-purple-100: #ead9e9;
+  --color-purple-200: #c5a6c4;
+  --color-purple-300: #bd8cba;
+  --color-purple-400: #a35aa0;
+  --color-purple-500: #873081;
+  --color-purple-600: #72076a;
+  --color-purple-700: #580052;
+  --color-purple-800: #470043;
+  --color-purple-900: #380035;
+  --color-purple-950: #240022;
+
+  /* Laranja */
+  --color-orange-50: #fff4e8;
+  --color-orange-100: #ffe5cc;
+  --color-orange-200: #ffca99;
+  --color-orange-300: #ffad66;
+  --color-orange-400: #ff9633;
+  --color-orange-500: #ff7900;
+  --color-orange-600: #e66d00;
+  --color-orange-700: #bf5b00;
+  --color-orange-800: #994900;
+  --color-orange-900: #733700;
+  --color-orange-950: #4d2500;
+
+  --color-success-50: #f0f8f0;
+  --color-success-100: #e7f3e8;
+  --color-success-200: #d1e6d3;
+  --color-success-300: #acd2b1;
+  --color-success-400: #7eb88a;
+  --color-success-500: #549963;
+  --color-success-600: #367548;
+  --color-success-700: #2d603c;
+  --color-success-800: #264d32;
+  --color-success-900: #203f2a;
+  --color-success-950: #102216;
+
+  /* Texto e superfícies */
+  --color-ink: #2c1730;
+  --color-muted: #827580;
+  --color-line: #e9e2e9;
+  --color-soft: #f5eff5;
+  --color-page: #faf8f7;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #2c1730;
+  background: #faf8f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --purple: #580052;
+  --purple2: #72076a;
+  --orange: #ff7900;
+  --ink: #2c1730;
+  --muted: #827580;
+  --line: #e9e2e9;
+  --white: #fff;
+  --soft: #f5eff5;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+button,
+input {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
